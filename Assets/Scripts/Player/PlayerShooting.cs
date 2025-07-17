@@ -48,8 +48,10 @@ public class PlayerShooting : MonoBehaviour
 
     void Update()
     {
-        if (pauseButton.isPaused) return;
-
+        if (pauseButton.isPaused)
+        { 
+            return;
+        }
         timer += Time.deltaTime;
         ammoText.text = currentAmmo + " / " + totalAmmo;
 
@@ -89,8 +91,10 @@ public class PlayerShooting : MonoBehaviour
 
     void Shoot()
     {
-        if (currentAmmo <= 0 || isReloading) return;
-
+        if (currentAmmo <= 0 || isReloading)
+        { 
+            return;
+        }
         timer = 0f;
 
         gunAudio.clip = gunshotClip;

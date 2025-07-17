@@ -17,22 +17,6 @@ public class ScoreManager : MonoBehaviour
         textHighScore.text = "High Score: " + highScore;
     }
 
-    void Update()
-    {
-        //None of this is needed
-        /*text.text = "Score: " + score;
-
-        if (Input.GetKeyDown(KeyCode.Backspace))
-        {
-            SaveGameState();
-        }
-
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            LoadGameState();
-        }*/
-    }
-
     public void ShowScore()
     {
         text.text = "Score: " + score;

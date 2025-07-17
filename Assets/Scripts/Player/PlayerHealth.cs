@@ -89,11 +89,6 @@ public class PlayerHealth : MonoBehaviour
         playerShooting.enabled = false;
     }
 
-    public void RestartLevel()
-    {
-        Debug.Log("Restart Level");
-    }
-
     IEnumerator HurtHealing()
     {
         canPassiveHeal = false;
