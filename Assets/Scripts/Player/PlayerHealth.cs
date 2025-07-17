@@ -14,14 +14,14 @@ public class PlayerHealth : MonoBehaviour
     public bool canPassiveHeal;
     public bool hasShield;
 
-    GameObject pickupUI;
-    PickupManager pickupManager;
-    Animator anim;
-    AudioSource playerAudio;
-    PlayerMovement playerMovement;
-    PlayerShooting playerShooting;
-    bool isDead;
-    bool damaged;
+    private GameObject pickupUI;
+    private PickupManager pickupManager;
+    private Animator anim;
+    private AudioSource playerAudio;
+    private PlayerMovement playerMovement;
+    private PlayerShooting playerShooting;
+    private bool isDead;
+    private bool damaged;
 
     void Awake()
     {

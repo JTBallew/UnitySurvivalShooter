@@ -15,11 +15,11 @@ public class PlayerMovement : MonoBehaviour
     public bool infiniteStamina;
     public bool pickedUpPowerup;
 
-    Vector3 movement;
-    Animator anim;
-    Rigidbody playerRigidbody;
-    int floorMask;
-    float camRayLength = 100f;
+    private Vector3 movement;
+    private Animator anim;
+    private Rigidbody playerRigidbody;
+    private int floorMask;
+    private float camRayLength = 100f;
 
     void Awake()
     {

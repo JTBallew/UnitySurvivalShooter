@@ -17,10 +17,10 @@ public class PickupManager : MonoBehaviour
     public AudioSource healAudio;
     public AudioSource shieldBreak;
 
-    GameObject player;
-    PlayerShooting playerShooting;
-    PlayerMovement playerMovement;
-    PlayerHealth playerHealth;
+    private GameObject player;
+    private PlayerShooting playerShooting;
+    private PlayerMovement playerMovement;
+    private PlayerHealth playerHealth;
 
     void Awake()
     {

@@ -3,9 +3,9 @@ using TMPro;
 
 public class AmmoManager : MonoBehaviour
 {
-    GameObject player;
-    PlayerShooting playerShooting;
-    TextMeshProUGUI ammoText;
+    private GameObject player;
+    private PlayerShooting playerShooting;
+    private TextMeshProUGUI ammoText;
 
     void Awake()
     {

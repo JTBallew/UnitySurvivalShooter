@@ -17,18 +17,18 @@ public class PlayerShooting : MonoBehaviour
     public bool pickedUpPowerup;
     public PauseButton pauseButton;
 
-    int startingAmmo = 300;
-    bool isReloading;
-    float timer;
-    Ray shootRay;
-    RaycastHit shootHit;
-    int shootableMask;
-    ParticleSystem gunParticles;
-    LineRenderer gunLine;
-    AudioSource gunAudio;
-    Light gunLight;
-    PlayerHealth playerHealth;
-    float effectsDisplayTime = .2f;
+    private int startingAmmo = 300;
+    private bool isReloading;
+    private float timer;
+    private Ray shootRay;
+    private RaycastHit shootHit;
+    private int shootableMask;
+    private ParticleSystem gunParticles;
+    private LineRenderer gunLine;
+    private AudioSource gunAudio;
+    private Light gunLight;
+    private PlayerHealth playerHealth;
+    private float effectsDisplayTime = .2f;
 
     void Awake()
     {

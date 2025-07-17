@@ -5,9 +5,9 @@ public class SprintManager : MonoBehaviour
     public AudioClip noStaminaClip;
     public AudioClip fullStaminaClip;
 
-    GameObject player;
-    PlayerMovement playerMovement;
-    AudioSource sprintAudio;
+    private GameObject player;
+    private PlayerMovement playerMovement;
+    private AudioSource sprintAudio;
 
     void Awake()
     {

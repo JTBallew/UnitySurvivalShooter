@@ -15,12 +15,12 @@ public class EnemyHealth : MonoBehaviour
     public GameObject damagePickup;
     public GameObject sprintPickup;
 
-    Animator anim;
-    AudioSource enemyAudio;
-    ParticleSystem hitParticles;
-    CapsuleCollider capsuleCollider;
-    bool isDead;
-    bool isSinking;
+    private Animator anim;
+    private AudioSource enemyAudio;
+    private ParticleSystem hitParticles;
+    private CapsuleCollider capsuleCollider;
+    private bool isDead;
+    private bool isSinking;
 
     void Awake()
     {
