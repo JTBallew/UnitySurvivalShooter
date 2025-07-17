@@ -73,7 +73,7 @@ public class PlayerShooting : MonoBehaviour
             StartCoroutine(nameof(Reload));
         }
 
-        if (timer >= 10 && playerHealth.currentHealth < 100 && playerHealth.canPassiveHeal == true)
+        if (timer >= 10 && playerHealth.currentHealth < 100 && playerHealth.canPassiveHeal)
         {
             timer = 8;
             playerHealth.currentHealth += 5;
